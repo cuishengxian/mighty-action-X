@@ -29,7 +29,10 @@ li {
 #co-0 {
     background: rgb(175, 170, 171);
 }
-
+.co{
+    margin-top: 0px;
+}
+    
 #co-1 {
     background: rgb(19, 46, 122);
 }
