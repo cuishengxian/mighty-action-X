@@ -4,6 +4,7 @@ var word = document.getElementsByClassName("word")[0];
 var no = localStorage.getItem("key");
 for (var i = 0; i < List.length; i++) {
     if (i == no) {
+        List[0].removeAttribute("class");
         List[i].style.marginTop = 0;
         word.setAttribute("id", "co-" + i);
     }
